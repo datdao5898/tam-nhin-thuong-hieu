@@ -4,7 +4,7 @@
     style="background-image: url('/assets/bg-about.png');"
 >
     <img
-        src="/assets/quyenloi.png"
+        src="/assets/quyenloi.webp"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
     />

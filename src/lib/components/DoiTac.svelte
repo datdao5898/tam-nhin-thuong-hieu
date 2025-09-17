@@ -61,7 +61,7 @@
                 class="flex items-center justify-center bg-white p-4 rounded-3xl shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
-                    src="/assets/logotext.png"
+                    src="/assets/logotext.webp"
                     alt="Icon 5"
                     class="w-32 h-32 object-contain"
                 />
@@ -287,7 +287,7 @@
     </div>
     <div class="mx-auto mt-20 container flex gap-12 justify-center pb-20">
         <img
-            src="/assets/brand.png"
+            src="/assets/brand.webp"
             alt="Icon 1"
             class="object-contain"
         />

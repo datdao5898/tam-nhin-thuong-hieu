@@ -5,7 +5,7 @@
 >
     <div class="container">
         <img
-            src="/assets/tnths.png"
+            src="/assets/tnths.webp"
             alt="Về Ban Đối Ngoại"
             class="w-100 mb-12"
         />
@@ -24,7 +24,7 @@
 
         <div class="flex flex-col items-center gap-10">
             <img
-                src="/assets/bgk.jpg"
+                src="/assets/bgk.webp"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />

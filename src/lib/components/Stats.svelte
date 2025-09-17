@@ -55,6 +55,6 @@
 
   <!-- Background sao lấp lánh -->
   <div
-    class="absolute inset-0 -z-10 bg-[url('/assets/stars-bg.png')] bg-cover bg-center opacity-70"
+    class="absolute inset-0 -z-10  bg-cover bg-center opacity-70"
   ></div>
 </section>

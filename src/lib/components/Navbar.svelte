@@ -16,11 +16,11 @@
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
       <a href="/" class="text-xl font-bold text-white">
-         <img src="/assets/logo.png" alt="Logo" class="w-16" />
+         <img src="/assets/logo.webp" alt="Logo" class="w-16" />
       </a>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex space-x-6">
+      <div class="hidden md:flex space-x-10">
         {#each links as link}
           <a
             href={link.href}
@@ -31,15 +31,7 @@
         {/each}
       </div>
 
-      <!-- CTA button -->
-      <div class="hidden md:block">
-        <a
-          href="#register"
-          class="px-4 py-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow hover:opacity-90 transition"
-        >
-          Đăng ký
-        </a>
-      </div>
+
 
       <!-- Mobile button -->
       <div class="md:hidden">

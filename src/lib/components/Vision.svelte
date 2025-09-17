@@ -11,7 +11,7 @@
         </button>
     </div>
     <img
-        src="/assets/tnth.png"
+        src="/assets/tnth.webp"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
     />
@@ -21,7 +21,7 @@
         <!-- Cột trái: nội dung -->
         <div>
             <img
-                src="/assets/tnth1.jpg"
+                src="/assets/tnth1.webp"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />
@@ -30,7 +30,7 @@
         <!-- Cột phải: hình ảnh -->
         <div class="flex justify-center">
             <img
-                src="/assets/tnth2.jpg"
+                src="/assets/tnth2.webp"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />

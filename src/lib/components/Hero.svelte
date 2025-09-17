@@ -39,7 +39,7 @@
 </script>
 
 <section
-  style="background-image:url('/assets/bg-hero.png');"
+  style="background-image:url('/assets/bg-hero.webp');"
   class="relative flex-col bg-cover bg-center h-screen flex items-center text-white text-center py-[100px] bg-gradient-to-b from-[#0B022D] to-[#05021A]"
 >
   <img src="/assets/logos.png" alt="Hero Logo" class="w-60 mb-6" />
@@ -48,7 +48,7 @@
 
     <div class="flex md:w-3/5 flex-col items-center">
       <img
-        src="/assets/tamnhinthuonghieu.png"
+        src="/assets/tamnhinthuonghieu.webp"
         alt="Tầm Nhìn Thương Hiệu"
         class=""
       />

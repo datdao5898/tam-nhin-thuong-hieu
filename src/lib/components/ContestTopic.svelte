@@ -13,7 +13,7 @@
     >
         <div class="flex w-1/3 justify-center">
             <img
-                src="/assets/avt.png"
+                src="/assets/avt.webp"
                 alt=""
                 class="rounded-xl shadow-2xl"
             />
