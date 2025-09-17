@@ -1,18 +1,17 @@
-import adapter from '@sveltejs/adapter-auto';
+// svelte.config.js
+import adapterAuto from '@sveltejs/adapter-auto';
+import adapterCloudflare from '@sveltejs/adapter-cloudflare';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
-const config = {
-	// Consult https://svelte.dev/docs/kit/integrations
-	// for more information about preprocessors
-	preprocess: vitePreprocess(),
+const isCloudflare = process.env.CF_DEPLOY === 'true' || process.env.CF === 'true';
 
-	kit: {
-		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
-	}
+const config = {
+  preprocess: vitePreprocess(),
+
+  kit: {
+    adapter: isCloudflare ? adapterCloudflare() : adapterAuto()
+  }
 };
 
 export default config;
