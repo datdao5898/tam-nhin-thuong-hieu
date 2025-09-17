@@ -1,7 +1,7 @@
 <section
     class="relative pb-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
 "
-    style="background-image: url('/src/lib/assets/cover_tnth.png');"
+    style="background-image: url('/assets/cover_tnth.png');"
 >
     <div class="mb-20 pt-10">
         <button
@@ -11,7 +11,7 @@
         </button>
     </div>
     <img
-        src="/src/lib/assets/tnth.png"
+        src="/assets/tnth.png"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
     />
@@ -21,7 +21,7 @@
         <!-- Cột trái: nội dung -->
         <div>
             <img
-                src="/src/lib/assets/tnth1.jpg"
+                src="/assets/tnth1.jpg"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />
@@ -30,7 +30,7 @@
         <!-- Cột phải: hình ảnh -->
         <div class="flex justify-center">
             <img
-                src="/src/lib/assets/tnth2.jpg"
+                src="/assets/tnth2.jpg"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />

@@ -5,10 +5,10 @@
 <section
     class="relative py-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
 "
-    style="background-image:url('/src/lib/assets/cover_tnth.png');"
+    style="background-image:url('/assets/cover_tnth.png');"
 >
     <img
-        src="/src/lib/assets/giaithuong.png"
+        src="/assets/giaithuong.png"
         alt=""
         class="w-[800px] mb-12 text-center mx-auto"
     />

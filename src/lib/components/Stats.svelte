@@ -1,12 +1,12 @@
 <section
   class="relative py-40 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto
 "
-  style="background-image: url('/src/lib/assets/cover_tnth.png');"
+  style="background-image: url('/assets/cover_tnth.png');"
 >
   <div class="container mx-auto px-6 justify-items-center">
     <!-- Tiêu đề -->
     <img
-      src="/src/lib/assets/dauan.png"
+      src="/assets/dauan.png"
       alt=""
       class="w-[800px] mb-12 text-center"
     />
@@ -55,6 +55,6 @@
 
   <!-- Background sao lấp lánh -->
   <div
-    class="absolute inset-0 -z-10 bg-[url('/src/lib/assets/stars-bg.png')] bg-cover bg-center opacity-70"
+    class="absolute inset-0 -z-10 bg-[url('/assets/stars-bg.png')] bg-cover bg-center opacity-70"
   ></div>
 </section>

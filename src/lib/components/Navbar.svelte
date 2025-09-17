@@ -16,7 +16,7 @@
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
       <a href="/" class="text-xl font-bold text-white">
-      <img src="/src/lib/assets/logo.png" alt="Logo" class="w-16" />
+         <img src="/assets/logo.png" alt="Logo" class="w-16" />
       </a>
 
       <!-- Desktop Menu -->

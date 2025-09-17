@@ -1,10 +1,10 @@
 <section
     class="relative pb-5 pt-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
 "
-    style="background-image: url('/src/lib/assets/bg-about.png');"
+    style="background-image: url('/assets/bg-about.png');"
 >
     <img
-        src="/src/lib/assets/hsv.png"
+        src="/assets/hsv.png"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
     />
@@ -43,7 +43,7 @@
         <!-- Cột phải: hình ảnh -->
         <div class="flex justify-center">
             <img
-                src="/src/lib/assets/bandoingoai.png"
+                src="/assets/bandoingoai.png"
                 alt="Ban Đối Ngoại"
                 class="rounded-xl shadow-2xl"
             />

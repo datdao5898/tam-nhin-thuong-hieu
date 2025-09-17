@@ -1,9 +1,9 @@
 <section
     class="relative py-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center"
-    style="background-image: url('/src/lib/assets/cover_tnth.png');"
+    style="background-image: url('/assets/cover_tnth.png');"
 >
     <img
-        src="/src/lib/assets/cacvongthi.png"
+        src="/assets/cacvongthi.png"
         alt="Các Vòng Thi"
         class="w-[800px] mb-12"
     />
@@ -61,7 +61,7 @@
         <!-- Cột giữa -->
         <div class="flex flex-col items-center space-y-16 self-center">
             <img
-                src="/src/lib/assets/round.png"
+                src="/assets/round.png"
                 alt="Step 1"
                 class="scale-[1.2]"
             />

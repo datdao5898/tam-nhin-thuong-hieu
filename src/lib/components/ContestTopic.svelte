@@ -1,10 +1,10 @@
 <section
     class="relative py-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
 "
-    style="background-image: url('/src/lib/assets/bg-about.png');"
+    style="background-image: url('/assets/bg-about.png');"
 >
     <img
-        src="/src/lib/assets/chude.png"
+        src="/assets/chude.png"
         alt=""
         class=""
     />
@@ -13,7 +13,7 @@
     >
         <div class="flex w-1/3 justify-center">
             <img
-                src="/src/lib/assets/avt.png"
+                src="/assets/avt.png"
                 alt=""
                 class="rounded-xl shadow-2xl"
             />

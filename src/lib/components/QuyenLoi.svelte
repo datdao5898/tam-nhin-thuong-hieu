@@ -1,10 +1,10 @@
 <section
     class="relative pb-5 pt-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
 "
-    style="background-image: url('/src/lib/assets/bg-about.png');"
+    style="background-image: url('/assets/bg-about.png');"
 >
     <img
-        src="/src/lib/assets/quyenloi.png"
+        src="/assets/quyenloi.png"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
     />
@@ -53,7 +53,7 @@
         <!-- Cột phải: hình ảnh -->
         <div class=" w-[40%] justify-center">
             <img
-                src="/src/lib/assets/pinklogo.png"
+                src="/assets/pinklogo.png"
                 alt="Ban Đối Ngoại"
                 class="rounded-xl"
             />
@@ -62,7 +62,7 @@
     <div class="container mx-auto flex gap-12 items-center">
         <!-- Cột phải: hình ảnh -->
         <div class=" w-[40%] justify-center">
-            <img src="/src/lib/assets/pinklogo.png" alt="" class="rounded-xl" />
+            <img src="/assets/pinklogo.png" alt="" class="rounded-xl" />
         </div>
         <!-- Cột trái: nội dung -->
         <div

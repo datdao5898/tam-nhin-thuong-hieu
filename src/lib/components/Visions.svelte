@@ -1,11 +1,11 @@
 <section
     class="relative py-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
 "
-    style="background-image: url('/src/lib/assets/bg-about.png');"
+    style="background-image: url('/assets/bg-about.png');"
 >
     <div class="container">
         <img
-            src="/src/lib/assets/tnths.png"
+            src="/assets/tnths.png"
             alt="Về Ban Đối Ngoại"
             class="w-100 mb-12"
         />
@@ -15,7 +15,7 @@
     >
         <div class="flex flex-col items-center gap-10">
             <img
-                src="/src/lib/assets/doitac.jpg"
+                src="/assets/doitac.jpg"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />
@@ -24,7 +24,7 @@
 
         <div class="flex flex-col items-center gap-10">
             <img
-                src="/src/lib/assets/bgk.jpg"
+                src="/assets/bgk.jpg"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />
@@ -32,7 +32,7 @@
         </div>
         <div class="flex flex-col items-center gap-10">
             <img
-                src="/src/lib/assets/thisinh.jpg"
+                src="/assets/thisinh.jpg"
                 alt="Ban Đối Ngoại"
                 class="rounded-[35px] border border-white"
             />
