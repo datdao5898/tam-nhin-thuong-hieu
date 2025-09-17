@@ -1,0 +1,15 @@
+/* Import các weight cần thiết */
+@import "@fontsource/lexend/300.css";
+@import "@fontsource/lexend/400.css";
+@import "@fontsource/lexend/500.css";
+@import "@fontsource/lexend/600.css";
+@import "@fontsource/lexend/700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Áp dụng font mặc định */
+body {
+  @apply font-sans;
+}
