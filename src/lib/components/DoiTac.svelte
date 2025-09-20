@@ -194,7 +194,7 @@
             BẢO TRỢ CHUYÊN MÔN
         </h4>
     </div>
-    <div class="py-5 container mx-auto px-10">
+    <div class="py-5 container mx-auto px-10 doitac">
         <div class="mx-auto md:flex place-items-center gap-12 justify-center">
             <img
                 src="/assets/btcm1.png"
@@ -247,7 +247,7 @@
             BẢO TRỢ TRUYỀN THÔNG
         </h4>
     </div>
-    <div class="py-5 container mx-auto px-10">
+    <div class="py-5 container mx-auto px-10 doitac">
         <div class="mx-auto md:flex place-items-center gap-12 justify-center">
             <img
                 src="/assets/bttt.png"
@@ -297,7 +297,7 @@
             />
         </div>
         <div
-            class="mx-auto lg:py-6 md:flex gap-12 justify-center place-items-center"
+            class="mx-auto  md:flex gap-12 justify-center place-items-center"
         >
             <img
                 src="/assets/bttt10.png"
@@ -380,3 +380,11 @@
         />
     </div>
 </section>
+<style>
+    @media (min-width: 1024px) {
+        .doitac img {
+            width: 250px;
+        }
+    }
+     
+</style>
