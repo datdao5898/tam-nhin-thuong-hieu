@@ -105,6 +105,7 @@
 
 <style>
     .slide {
+        transform: scale(.9); 
         transition: all 0.5s ease-in-out;
         opacity: 0.5;
     }

@@ -73,12 +73,12 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
         class="flex flex-col lg:flex-row p-2 md:p-8 text-white font-san w-full"
     >
         <div
-            class="w-full flex lg:block lg:w-[45%] pr-0 lg:pr-8 mb-8 lg:mb-0 relative overflow-auto lg:overflow-hidden"
+            class="w-full flex lg:block lg:w-[45%] pr-0 lg:pr-8 mb-8 lg:mb-0 relative overflow-auto lg:overflow-visible h-[400px] lg:h-auto"
         >
             <img
                 src="/assets/tab-active.png"
                 alt="icon"
-                class="hidden md:block absolute left-4 h-[20px] lg:h-[100px] transition-transform duration-300 ease-in-out transform"
+                class="hidden float-animation  md:block absolute left-4 h-[20px] lg:h-[100px] transition-transform duration-300 ease-in-out transform"
                 style="top: calc(0% - 20px  + ({activeTab *
                     80}px)); transition: all .5s;"
             />
@@ -138,3 +138,20 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
         </div>
     </div>
 </section>
+<style>
+    @keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+</style>

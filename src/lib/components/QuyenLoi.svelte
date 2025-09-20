@@ -51,6 +51,7 @@
         <!-- Cột phải: hình ảnh -->
         <div class="hidden lg:block w-[40%] justify-center">
             <img
+            data-aos="fade-left"
                 src="/assets/pinklogo.png"
                 alt="Ban Đối Ngoại"
                 class="rounded-xl"
@@ -59,8 +60,8 @@
     </div>
     <div class="container mx-auto mt-20 flex gap-12 ">
         <!-- Cột phải: hình ảnh -->
-        <div class="hidden lg:block w-[40%] justify-center">
-            <img src="/assets/benefitimg.png" alt="" class="rounded-xl absolute left-0 w-[45%]" />
+        <div  class="hidden lg:block w-[40%] justify-center">
+            <img  data-aos="fade-right" src="/assets/benefitimg.png" alt="" class="rounded-xl absolute left-0 w-[45%]" />
         </div>
         <!-- Cột trái: nội dung -->
         <div
