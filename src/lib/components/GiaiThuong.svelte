@@ -85,7 +85,7 @@
 
 <section 
 id="giai-thuong"
-    class="relative px-4 lg:py-20 lg:pt-[100px] text-white mx-auto justify-items-center
+    class="relative px-4 lg:py-20 pt-[100px] text-white mx-auto justify-items-center
 "
 >
     <img data-aos="fade"

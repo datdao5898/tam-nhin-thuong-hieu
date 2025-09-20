@@ -13,7 +13,7 @@
 
 <nav
   
-  class="top-0 fixed transition-all z-50 duration-500 left-0 w-full bg-[#05021A]/80 backdrop-blur-md border-b border-white/10 py-4"
+  class="top-0 fixed transition-all z-50 duration-500 left-0 w-full bg-[#05021A]/80 backdrop-blur-md border-b border-white/10 py-2 lg:py-4"
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">

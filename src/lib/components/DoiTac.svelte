@@ -4,7 +4,7 @@
 
 <section
 id="doi-tac-dong-hanh"
-    class="relative py-20 text-white px-4 lg:pt-[100px]  mx-auto justify-items-center text-center
+    class="relative py-20 text-white px-4 pt-[100px]  mx-auto justify-items-center text-center
 "
 >
     <img

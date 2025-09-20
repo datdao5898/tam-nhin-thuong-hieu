@@ -4,7 +4,7 @@
 
 <section 
 id="the-le"
-    class="relative px-5 lg:pt-[100px] py-20 text-white mx-auto justify-items-center
+    class="relative px-5 pt-[100px] py-20 text-white mx-auto justify-items-center
 "
 >
     <img data-aos="fade-up"

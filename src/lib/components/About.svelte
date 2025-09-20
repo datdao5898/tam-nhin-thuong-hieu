@@ -32,7 +32,7 @@
 
 <section 
     id="ve-chung-toi"
-    class="relative py-10 text-white mx-auto justify-items-center lg:pt-[100px] 
+    class="relative py-10 text-white mx-auto justify-items-center pt-[100px] 
 ">
     <img data-aos="fade-up" src="/assets/hsv.png" alt="Về Ban Đối Ngoại" class="w-[1100px] mb-12" />
 

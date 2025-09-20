@@ -1,5 +1,5 @@
 <section
-    class="relative px-5 py-20 text-white mx-auto justify-items-center lg:pt-[100px] 
+    class="relative px-5 py-20 text-white mx-auto justify-items-center pt-[100px] 
 "
 >
     <img  data-aos="fade-up" src="/assets/chude.png" alt="" class="" />

@@ -13,7 +13,7 @@
 </style>
 
 <section  id="gioi-thieu"
-    class="relative px-5 lg:px-10 py-10 lg:pt-[100px] text-white mx-auto justify-items-center
+    class="relative px-5 lg:px-10 py-10 pt-[100px] text-white mx-auto justify-items-center
 "
 >
     <img data-aos="fade-up"
