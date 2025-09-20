@@ -3,7 +3,6 @@
   import Hero from "$lib/components/Hero.svelte";
   import About from "$lib/components/About.svelte";
   import Vision from "$lib/components/Vision.svelte";
-  import Partners from "$lib/components/DoiTac.svelte";
   import ContestTopic from "$lib/components/ContestTopic.svelte";
   import Prizes from "$lib/components/GiaiThuong.svelte";
   import Navbar from "$lib/components/Navbar.svelte";
@@ -15,16 +14,16 @@
   import QuyenLoi from "$lib/components/QuyenLoi.svelte";
   import DoiTac from "$lib/components/DoiTac.svelte";
 
-  // sau này import thêm các section khác: About, Vision, Partners, ...
 </script>
 
 <Navbar />
 <Hero />
+<div style="background-image: url('/assets/bg-about.png'); background-attachment:fixed;background-size:cover;" class="fixed-bg-wrapper">
+
 <About />
 <Vision />
 <Visions />
 <Stats />
-<Partners />
 <ContestTopic />
 <ContestRounds />
 <TheLe />
@@ -32,3 +31,4 @@
 <QuyenLoi />
 <DoiTac />
 <Footer />
+</div>

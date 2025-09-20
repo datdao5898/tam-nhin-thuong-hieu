@@ -7,31 +7,55 @@
     { name: "THỂ LỆ", href: "#the-le" },
     { name: "GIẢI THƯỞNG", href: "#giai-thuong" },
     { name: "ĐỐI TÁC ĐỒNG HÀNH", href: "#doi-tac-dong-hanh" },
-    { name: "LIÊN HỆ", href: "#lien-he" }
+    { name: "LIÊN HỆ", href: "#lien-he" },
   ];
+
+  import { onMount } from "svelte";
+
+  let isFixed = false;
+
+  onMount(() => {
+    // Logic này chỉ chạy trong trình duyệt
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        isFixed = true;
+      } else {
+        isFixed = false;
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Trả về một hàm cleanup để gỡ bỏ event listener khi component bị hủy
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 </script>
 
-<nav class="fixed top-0 left-0 w-full z-50 bg-[#05021A]/80 backdrop-blur-md border-b border-white/10 py-4">
+<nav
+  class:fixed={isFixed}
+  
+  class="top-0  transition-all duration-500 left-0 w-full z-50 bg-[#05021A]/80 backdrop-blur-md border-b border-white/10 py-4"
+>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
       <a href="/" class="text-xl font-bold text-white">
-         <img src="/assets/logo.webp" alt="Logo" class="w-16" />
+        <img src="/assets/logo.png" alt="Logo" class="w-16" />
       </a>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex space-x-10">
+      <div class="hidden md:flex space-x-4 lg:space-x-10">
         {#each links as link}
           <a
             href={link.href}
-            class="text-white hover:text-purple-400 transition uppercase font-bold"
+            class="text-white hover:text-purple-400 text-xs lg:text-base transition uppercase font-bold"
           >
             {link.name}
           </a>
         {/each}
       </div>
-
-
 
       <!-- Mobile button -->
       <div class="md:hidden">
@@ -62,12 +86,6 @@
             {link.name}
           </a>
         {/each}
-        <a
-          href="#register"
-          class="block px-3 py-2 rounded-md bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold text-center"
-        >
-          Đăng ký
-        </a>
       </div>
     </div>
   {/if}

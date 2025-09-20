@@ -26,6 +26,8 @@
 		"wrangler": "^4.37.1"
 	},
 	"dependencies": {
-		"@fontsource/lexend": "^5.2.10"
+		"@fontsource/lexend": "^5.2.10",
+		"aos": "^2.3.4",
+		"svelte-inview": "^4.0.4"
 	}
 }

@@ -1,48 +1,129 @@
 <script>
-    import { list } from "postcss";
+    // Dữ liệu giải thưởng
+    let prizes = [
+        {
+            title: "QUÁN QUÂN",
+            amount: "123.000.000 VNĐ",
+            items: [
+                "Hiện kim 10.000.000 VNĐ",
+                "03 suất ưu tiên tuyển dụng từ Xanh SM",
+                "03 suất Company Tour từ Xanh SM",
+                "03 thẻ Xanh SM",
+                "03 học bổng 100% từ Tomorrow Marketers",
+                "03 học bổng 75% khóa học Road to Management Trainee + Review CV qua Fanpage + Mock Interview by AI",
+                "03 học bổng 100% IZONE",
+                "03 E-voucher 30% cho lộ trình 0-4 HSK",
+                "03 học bổng ZIM Academy",
+                "03 học bổng 70% khoá MC chuyên nghiệp từ ST Lighthouse",
+                "03 set quà 4 món từ Yukazan",
+                "03 tài khoản TopCV Education VIP",
+            ],
+        },
+        {
+            title: "Á QUÂN",
+            amount: "96.000.000 VNĐ",
+            items: [
+                "Hiện kim 5.000.000 VNĐ",
+                "03 suất Company Tour từ Xanh SM",
+                "03 thẻ Xanh SM",
+                "03 học bổng 80% từ Tomorrow Marketers",
+                "03 học bổng 75% khóa học Road to Management Trainee + Review CV qua Fanpage + Mock Interview by AI",
+                "03 học bổng 60% IZONE",
+                "03 E-voucher 25% cho lộ trình 0-4 HSK",
+                "03 học bổng ZIM Academy",
+                "03 học bổng 70% khoá MC chuyên nghiệp từ ST Lighthouse",
+                "03 set quà 4 món từ Yukazan",
+                "03 tài khoản TopCV Education VIP",
+            ],
+        },
+        {
+            title: "QUÝ QUÂN",
+            amount: "72.000.000 VNĐ",
+            items: [
+                "Hiện kim 3.000.000 VNĐ",
+                "03 suất Company Tour từ Xanh SM",
+                "03 thẻ Xanh SM",
+                "03 học bổng 50% từ Tomorrow Marketers",
+                "03 học bổng 65% khóa học Road to Management Trainee + Review CV qua Fanpage + Mock Interview by AI",
+                "03 học bổng 40% IZONE",
+                "03 E-voucher 20% cho lộ trình 0-4 HSK",
+                "03 học bổng ZIM Academy",
+                "03 học bổng 70% khoá MC chuyên nghiệp từ ST Lighthouse",
+                "03 set quà 4 món từ Yukazan",
+                "03 tài khoản TopCV Education VIP",
+            ],
+        },
+        {
+            title: "ĐỘI THI ĐƯỢC YÊU THÍCH NHẤT",
+            amount: "15.000.000 VNĐ",
+            items: [
+                "Hiện kim 1.000.000 VNĐ",
+                "03 học bổng 40% từ Tomorrow Marketers",
+                "06 suất quà từ Yukazan",
+                "03 tài khoản TopCV Education VIP",
+            ],
+        },
+        {
+            title: "TOP 25",
+            amount: "16.800.000 VNĐ",
+            items: [
+                "03 học bổng 50% khóa học Road to Management Trainee + Review CV qua Fanpage + Mock Interview by AI",
+                "03 tài khoản TopCV Education VIP",
+            ],
+        },
+        {
+            title: "TOP 60",
+            amount: "11.760.000 VNĐ",
+            items: [
+                "03 học bổng 35% khóa học Road to Management Trainee + Review CV qua Fanpage + Mock Interview by AI",
+                "03 tài khoản TopCV Education VIP",
+            ],
+        },
+      
+    ];
 </script>
 
-<section
-    class="relative py-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto justify-items-center
+<section data-aos="fade-up"
+id="giai-thuong"
+    class="relative px-4 lg:py-20 text-white mx-auto justify-items-center
 "
-    style="background-image:url('/assets/cover_tnth.png');"
 >
     <img
-        src="/assets/giaithuong.png"
+        src="/assets/cocau.png"
         alt=""
         class="w-[800px] mb-12 text-center mx-auto"
     />
-    <div class="container mx-auto flex gap-12 justify-center">
+
+    <!-- Loop qua từng giải thưởng -->
+    {#each prizes as prize}
         <div
-            class="shadow-[0_9px_11px_-8px_white] items-center w-[1000px] text-justify bg-gradient-to-b from-[#140A9B]/40 via-[#5B69D2] via-[#6980E8]/40 to-[#84A0F4]/40 py-8 px-16 rounded-[48px]"
+            class="container mx-auto flex flex-col justify-center text-center mb-20"
         >
-            <!-- <h4 class="font-bold text-[#EAFF4B]">ĐỐI TƯỢNG THAM GIA</h4>
-            <ul>
-                <li style="list-style-type: disc; ">
-                    Đối tượng tham gia - Sinh viên theo học tại các trường Đại
-                    học, Cao đẳng trên địa bàn toàn quốc có độ tuổi từ 18-24
-                    tuổi (đã tốt nghiệp THPT hoặc vừa tốt nghiệp Đại học, Cao
-                    đẳng trong vòng 06 tháng).
-                </li>
-                <li style="list-style-type: disc; ">
-                    Thí sinh tham dự "TẦM NHÌN THƯƠNG HIỆU 2025" không được phép
-                    thuộc các nhóm sau: Thành viên Ban Tổ chức của "TẦM NHÌN
-                    THƯƠNG HIỆU 2025"; Thành viên Ban Giám khảo, Ban Cố vấn,
-                    Diễn giả của cuộc thi; Thí sinh dự thi Chung kết "TẦM NHÌN
-                    THƯƠNG HIỆU 2024".
-                </li>
-            </ul>
-            <h4 class="font-bold text-[#EAFF4B] mt-6">HÌNH THỨC DỰ THI</h4>
-            <ul>
-                <li style="list-style-type: disc; ">
-                    Thí sinh đăng ký dự thi theo số lượng 03 người/ đội.
-                </li>
-                <li style="list-style-type: disc; ">
-                    Mỗi thí sinh chỉ được đăng ký dự thi với 01 đội duy nhất
-                    (BTC sẽ hỗ trợ ghép đội trong trường hợp đội thi không đủ
-                    người).
-                </li>
-            </ul>
-        </div> -->
-    </div>
+            <h2
+                class="text-3xl lg:text-5xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] bg-clip-text text-transparent"
+            >
+                {prize.title}
+            </h2>
+            <h2
+                class="text-3xl lg:text-5xl lg:mb-10 font-bold leading-[60px] bg-clip-text text-transparent {
+        prize.title === 'QUÁN QUÂN' || prize.title === 'Á QUÂN' || prize.title === 'QUÝ QUÂN'
+            ? 'bg-gradient-to-b from-[#FFFFFF] to-[#FBCD48]'
+            : 'bg-gradient-to-b from-[#FFFFFF] to-[#7DD8CE]'
+    }"
+            >
+                {prize.amount}
+            </h2>
+            <div
+                class="text-justify place-self-center lg:w-[1000px] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 rounded-[48px]"
+            >
+                <ul class="text-[20px]">
+                    {#each prize.items as item}
+                        <li class="list-disc ml-6">{item}</li>
+                    {/each}
+                </ul>
+            </div>
+        </div>
+    {/each}
+
+    
 </section>

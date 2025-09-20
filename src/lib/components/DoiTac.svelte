@@ -2,76 +2,76 @@
     import { list } from "postcss";
 </script>
 
-<section
-    class="relative py-20 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-contain  text-white mx-auto justify-items-center
+<section data-aos="fade-up"
+id="doi-tac-dong-hanh"
+    class="relative py-20 text-white px-4 mx-auto justify-items-center text-center
 "
-    style="background-image:url('/assets/cover_tnth.png');"
 >
     <img
-        src="/assets/doitacdonghanh.png"
+        src="/assets/doitac.png"
         alt=""
         class="w-[800px] mb-12 text-center mx-auto"
     />
-    <div class="container mx-auto flex gap-12 justify-center">
+    <div class="container mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             ĐƠN VỊ TỔ CHỨC
         </h4>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto grid grid-cols-5 gap-12">
+        <div class="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12">
             <div
-                class="flex items-center justify-center bg-white p-4 rounded-3xl shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flexitems-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/neu.png"
                     alt="Icon 1"
-                    class="w-32 h-32 object-contain"
+                    class="w-32 h-32 object-contain min-w-0"
                 />
             </div>
             <div
-                class="flex items-center justify-center bg-white p-4 rounded-3xl shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/doanvb.png"
                     alt="Icon 2"
-                    class="w-32 h-32 object-contain"
+                    class="w-32 h-32 object-contain min-w-0"
                 />
             </div>
             <div
-                class="flex items-center justify-center bg-white p-4 rounded-3xl shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/hoisvvn.png"
                     alt="Icon 3"
-                    class="w-32 h-32 object-contain"
+                    class="w-32 h-32 object-contain min-w-0"
                 />
             </div>
             <div
-                class="flex items-center justify-center bg-white p-4 rounded-3xl shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/bdn.png"
                     alt="Icon 4"
-                    class="w-32 h-32 object-contain"
+                    class="w-32 h-32 object-contain min-w-0"
                 />
             </div>
             <div
-                class="flex items-center justify-center bg-white p-4 rounded-3xl shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/logotext.webp"
                     alt="Icon 5"
-                    class="w-32 h-32 object-contain"
+                    class="w-32 h-32 object-contain min-w-0"
                 />
             </div>
         </div>
     </div>
 
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ HOÀNG KIM
         </h4>
@@ -81,14 +81,14 @@
             <img
                 src="/assets/xanh.png"
                 alt="Icon 1"
-                class="object-contain w-[500px]"
+                class="object-contain min-w-0 w-[500px]"
             />
         </div>
     </div>
 
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             ĐỐI TÁC CHIẾN LƯỢC
         </h4>
@@ -98,198 +98,136 @@
             <img
                 src="/assets/avia.png"
                 alt="Icon 1"
-                class="object-contain w-[450px]"
+                class="object-contain min-w-0 w-[450px]"
             />
         </div>
     </div>
 
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ BẠC
         </h4>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/giftzone.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/dhfood.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center">
+            <img src="/assets/dhfood.png" alt="Icon 1" class="object-contain min-w-0" />
+
             <img
                 src="/assets/tmrmarket.png"
                 alt="Icon 1"
-                class="object-contain"
+                class="object-contain min-w-0"
+            />
+            <img
+                src="/assets/giftzone.png"
+                alt="Icon 1"
+                class="object-contain min-w-0"
             />
         </div>
     </div>
 
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ ĐỒNG
         </h4>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/dol.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center lg:ml-[-40px]">
+            <img src="/assets/dol.png" alt="Icon 1" class="object-contain min-w-0" />
             <img
                 src="/assets/yukazan.png"
                 alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/izon.png"
-                alt="Icon 1"
-                class="object-contain"
+                class="object-contain min-w-0"
             />
         </div>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/nhataitrodong.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center lg:mr-[-40px]">
+            <img src="/assets/izon.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/zim.png" alt="Icon 1" class="object-contain min-w-0" />
         </div>
     </div>
 
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
-        >
-            NHÀ TÀI TRỢ ĐỒNG HÀNH
-        </h4>
-    </div>
-    <div class="py-5 container mx-auto">
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/nhataitrodonghanh.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/nhataitrodonghanh2.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/nhataitrodonghanh3.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-        </div>
-    </div>
-
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
-        <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             BẢO TRỢ CHUYÊN MÔN
         </h4>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/baotrochuyenmon.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrochuyenmon2.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center">
+            <img src="/assets/btcm1.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/btcm.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/btcm2.png" alt="Icon 1" class="object-contain min-w-0" />
         </div>
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/baotrochuyenmon3.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrochuyenmon4.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrochuyenmon5.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto mt-10 md:flex gap-12 justify-center place-items-center">
+            <img src="/assets/btcm3.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/btcm4.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/btcm5.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/btcm6.png" alt="Icon 1" class="object-contain min-w-0" />
         </div>
     </div>
 
-    <div class="container mt-20 mx-auto flex gap-12 justify-center">
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
         <h4
-            class="font-bold leading-[60px] text-4xl text-center bg-gradient-to-b from-[#BBE2FB] via-[#3E8DC2] to-[#A9D6FF] bg-clip-text text-transparent drop-shadow-[0_4px_4px_rgba(255,245,245,0.25)]"
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             BẢO TRỢ TRUYỀN THÔNG
         </h4>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto flex gap-12 justify-center">
-            <img
-                src="/assets/baotrotruyenthong.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrotruyenthong2.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrotruyenthong3.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrotruyenthong4.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center">
+            <img src="/assets/bttt.png" alt="Icon 1" class="object-contain min-w-0" />
+
+            <img src="/assets/bttt3.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/bttt4.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/bttt5.png" alt="Icon 1" class="object-contain min-w-0" />
         </div>
-        <div class="mx-auto py-6 flex gap-12 justify-center">
-            <img
-                src="/assets/baotrotruyenthong5.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrotruyenthong8.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrotruyenthong6.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
-            <img
-                src="/assets/baotrotruyenthong7.png"
-                alt="Icon 1"
-                class="object-contain"
-            />
+        <div class="mx-auto py-6 md:flex gap-12 justify-center place-items-center">
+            <img src="/assets/bttt6.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/bttt7.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/bttt8.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/bttt9.png" alt="Icon 1" class="object-contain min-w-0" />
+        </div>
+        <div class="mx-auto py-6 md:flex gap-12 justify-center place-items-center">
+            <img src="/assets/bttt10.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/gtvh.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/bttt11.png" alt="Icon 1" class="object-contain min-w-0" />
+        </div>
+    </div>
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
+        <h4
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+        >
+            BẢO TRỢ CÔNG NGHỆ
+        </h4>
+    </div>
+    <div class="py-5 container mx-auto">
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center">
+            <img src="/assets/bttcn.png" alt="Icon 1" class="object-contain min-w-0" />
+           
+        </div>
+    </div>
+    <div class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center">
+        <h4
+            class="text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+        >
+            NHÀ TÀI TRỢ ĐỒNG HÀNH
+        </h4>
+    </div>
+    <div class="py-5 container mx-auto">
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center place-items-center">
+            <img src="/assets/ttdh.png" alt="Icon 1" class="object-contain min-w-0 min-w-0" />
+            <img src="/assets/ttdh3.png" alt="Icon 1" class="object-contain min-w-0 min-w-0" />
+            <img src="/assets/ttdh2.png" alt="Icon 1" class="object-contain min-w-0 min-w-0" />
+            <img src="/assets/topcv.png" alt="Icon 1" class="object-contain min-w-0 min-w-0" />
         </div>
     </div>
     <div class="mx-auto mt-20 container flex gap-12 justify-center pb-20">
-        <img
-            src="/assets/brand.webp"
-            alt="Icon 1"
-            class="object-contain"
-        />
+        <img src="/assets/brand.webp" alt="Icon 1" class="object-contain min-w-0" />
     </div>
 </section>

@@ -1,60 +1,50 @@
-<section
-  class="relative py-40 bg-gradient-to-b from-[#0B022D] to-[#05021A] bg-cover text-white mx-auto
-"
-  style="background-image: url('/assets/cover_tnth.png');"
->
+<script>
+  import { onMount } from "svelte";
+
+  const stats = [
+    { value: 800, label: "Tổng giá trị giải thưởng", suffix: " Triệu" },
+    { value: 39, label: "Doanh nghiệp đối tác", suffix: "+" },
+    { value: 40, label: "Bài báo", suffix: "+" },
+    { value: 60, label: "Đại học trên cả nước", suffix: "+" },
+    { value: 1200, label: "Thí sinh đăng kí", suffix: "" },
+    { value: 1000000, label: "Lượt tiếp cận", suffix: "+" },
+  ];
+
+  let counters = stats.map(() => 0);
+
+  onMount(() => {
+    stats.forEach((s, i) => {
+      let step = Math.ceil(s.value / 100); // chia thành 100 bước
+      let interval = setInterval(() => {
+        if (counters[i] < s.value) {
+          counters[i] = Math.min(counters[i] + step, s.value);
+        } else {
+          clearInterval(interval);
+        }
+      }, 20); // tốc độ: 20ms
+    });
+  });
+
+  function formatNumber(num) {
+    return num.toLocaleString("vi-VN");
+  }
+</script>
+
+<section data-aos="fade-up" class="relative py-10 text-white mx-auto">
   <div class="container mx-auto px-6 justify-items-center">
     <!-- Tiêu đề -->
-    <img
-      src="/assets/dauan.png"
-      alt=""
-      class="w-[800px] mb-12 text-center"
-    />
+    <img src="/assets/dauan.png" alt="" class="lg:w-[1000px] mb-12 text-center" />
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-y-12 text-center">
-      <!-- Item -->
-      <div>
-        <h3 class="text-2xl md:text-2xl font-extrabold text-yellow-300">60+</h3>
-        <p class=" text-sm md:text-base">Đại học trên cả nước</p>
-      </div>
-
-      <div>
-        <h3 class="text-2xl md:text-2xl font-extrabold text-yellow-300">
-          800 Triệu
-        </h3>
-        <p class="text-sm md:text-base">Tổng giá trị giải thưởng</p>
-      </div>
-
-      <div>
-        <h3 class="text-2xl md:text-2xl font-extrabold text-yellow-300">40+</h3>
-        <p class="text-sm md:text-base">
-          Bài báo mạng và các đơn vị truyền thống như Esight, Brands Vietnam
-        </p>
-      </div>
-
-      <div>
-        <h3 class="text-2xl md:text-2xl font-extrabold text-yellow-300">39+</h3>
-        <p class="text-sm md:text-base">Doanh nghiệp đối tác tiêu biểu</p>
-      </div>
-
-      <div>
-        <h3 class="text-2xl md:text-2xl font-extrabold text-yellow-300">
-          1.000.000+
-        </h3>
-        <p class="text-sm md:text-base">Lượt tiếp cận</p>
-      </div>
-
-      <div>
-        <h3 class="text-2xl md:text-2xl font-extrabold text-yellow-300">
-          1200+
-        </h3>
-        <p class="text-sm md:text-base">Thí sinh đăng kí</p>
-      </div>
+    <div class="grid w-full grid-cols-2 md:grid-cols-3 gap-y-20 text-center">
+      {#each stats as item, i}
+        <div class="text-center flex flex-col items-center">
+          <img src="/assets/mark.png" alt="" class="w-[70px] lg:w-[130px] mb-3 text-center" />
+          <h3 class="text-2xl lg:text-5xl font-extrabold text-[#8DFDF1]">
+            {formatNumber(counters[i])}{item.suffix}
+          </h3>
+          <p class="text-base mt-2 w-[250px] lg:text-2xl font-bold">{item.label}</p>
+        </div>
+      {/each}
     </div>
   </div>
-
-  <!-- Background sao lấp lánh -->
-  <div
-    class="absolute inset-0 -z-10  bg-cover bg-center opacity-70"
-  ></div>
 </section>
