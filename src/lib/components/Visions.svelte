@@ -76,8 +76,8 @@
         />
     </div>
     <div
-        class="relative md:mt-[-50px] mb-[50px] w-full mx-auto overflow-hidden custom-path"
-        style="clip-path: url(#curved-sides-rectangle); -webkit-clip-path: url(#curved-sides-rectangle);"
+        class="relative  mb-[50px] w-full mx-auto overflow-hidden custom-path"
+        style="" 
     >
         <div
             class="flex {isTransitioning
@@ -106,10 +106,10 @@
 <style>
     .slide {
         transition: all 0.5s ease-in-out;
-        /* opacity: 0.5; */
+        opacity: 0.5;
     }
     .active-slide {
-        transform: scale(0.9); /* Phóng to slide chính */
+        transform: scale(1); 
         z-index: 10;
         opacity: 1;
     }
@@ -119,9 +119,10 @@
             z-index: 10;
             opacity: 1;
         }
-        .custom-path {
-            clip-path: none !important;
-            -webkit-clip-path: none !important;
-        }
+        .slide {
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
+    }
+       
     }
 </style>

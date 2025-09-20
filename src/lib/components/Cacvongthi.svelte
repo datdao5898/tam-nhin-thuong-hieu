@@ -73,7 +73,7 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
         class="flex flex-col lg:flex-row p-2 md:p-8 text-white font-san w-full"
     >
         <div
-            class="w-full flex lg:block lg:w-[45%] pr-0 lg:pr-8 mb-8 lg:mb-0 relative overflow-auto"
+            class="w-full flex lg:block lg:w-[45%] pr-0 lg:pr-8 mb-8 lg:mb-0 relative overflow-auto lg:overflow-hidden"
         >
             <img
                 src="/assets/tab-active.png"
