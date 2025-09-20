@@ -1,9 +1,9 @@
-<section data-aos="fade-up"
-    class="relative px-5 py-20 text-white mx-auto justify-items-center
+<section
+    class="relative px-5 py-20 text-white mx-auto justify-items-center lg:pt-[100px] 
 "
 >
-    <img src="/assets/chude.png" alt="" class="" />
-    <div
+    <img  data-aos="fade-up" src="/assets/chude.png" alt="" class="" />
+    <div  data-aos="fade-up"
         class="container mx-auto flex flex-col lg:flex-row gap-12 items-center"
     >
         <div class="flex lg:w-1/3 justify-center">
@@ -14,7 +14,7 @@
             />
         </div>
         <div
-            class="lg:w-2/3 blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-8 md:px-16 rounded-[48px]"
+            class="lg:w-2/3 blur-xs bg-gradient-to-b lg:pt[100px]  from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-8 md:px-16 lg:rounded-[48px] rounded-[15px]"
         >
             <p class=" text-[18px]">
                 Ẩn sâu trong màn sương tăm tối, tòa tháp kết tinh từ thời không

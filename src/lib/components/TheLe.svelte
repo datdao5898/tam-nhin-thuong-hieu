@@ -2,19 +2,19 @@
     import { list } from "postcss";
 </script>
 
-<section data-aos="fade-up"
+<section 
 id="the-le"
-    class="relative px-5 py-20 text-white mx-auto justify-items-center
+    class="relative px-5 lg:pt-[100px] py-20 text-white mx-auto justify-items-center
 "
 >
-    <img
+    <img data-aos="fade-up"
         src="/assets/thele.png"
         alt=""
         class="w-[800px] mb-12 text-center mx-auto"
     />
-    <div class="container mx-auto flex gap-12 md:text-[20px] justify-center">
+    <div data-aos="fade-up" class="container mx-auto flex gap-12 md:text-[20px] justify-center">
         <div
-           class="blur-xs md:w-[1000px] leading-[32px] bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 md:px-16 rounded-[48px]">
+           class="blur-xs md:w-[1000px] leading-[32px] bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 md:px-16 lg:rounded-[48px] rounded-[15px]">
             <h4 class="font-bold text-[#8DFCF0]">ĐỐI TƯỢNG THAM GIA</h4>
             <ul>
                 <li style=" list-style-type: disc; margin-left: 1.5rem;">

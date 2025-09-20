@@ -83,12 +83,12 @@
     ];
 </script>
 
-<section data-aos="fade-up"
+<section 
 id="giai-thuong"
-    class="relative px-4 lg:py-20 text-white mx-auto justify-items-center
+    class="relative px-4 lg:py-20 lg:pt-[100px] text-white mx-auto justify-items-center
 "
 >
-    <img
+    <img data-aos="fade"
         src="/assets/cocau.png"
         alt=""
         class="w-[800px] mb-12 text-center mx-auto"
@@ -97,6 +97,7 @@ id="giai-thuong"
     <!-- Loop qua từng giải thưởng -->
     {#each prizes as prize}
         <div
+        data-aos="fade"
             class="container mx-auto flex flex-col justify-center text-center mb-20"
         >
             <h2
@@ -114,7 +115,7 @@ id="giai-thuong"
                 {prize.amount}
             </h2>
             <div
-                class="text-justify place-self-center lg:w-[1000px] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 rounded-[48px]"
+                class="text-justify place-self-center lg:w-[1000px] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 lg:rounded-[48px] rounded-[15px]"
             >
                 <ul class="text-[20px]">
                     {#each prize.items as item}

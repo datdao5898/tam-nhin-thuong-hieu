@@ -9,34 +9,11 @@
     { name: "ĐỐI TÁC ĐỒNG HÀNH", href: "#doi-tac-dong-hanh" },
     { name: "LIÊN HỆ", href: "#lien-he" },
   ];
-
-  import { onMount } from "svelte";
-
-  let isFixed = false;
-
-  onMount(() => {
-    // Logic này chỉ chạy trong trình duyệt
-    const handleScroll = () => {
-      if (window.scrollY > 300) {
-        isFixed = true;
-      } else {
-        isFixed = false;
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    // Trả về một hàm cleanup để gỡ bỏ event listener khi component bị hủy
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
 </script>
 
 <nav
-  class:fixed={isFixed}
   
-  class="top-0  transition-all duration-500 left-0 w-full z-50 bg-[#05021A]/80 backdrop-blur-md border-b border-white/10 py-4"
+  class="top-0 fixed transition-all z-50 duration-500 left-0 w-full bg-[#05021A]/80 backdrop-blur-md border-b border-white/10 py-4"
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">

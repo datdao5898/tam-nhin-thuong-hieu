@@ -1,4 +1,4 @@
-<footer data-aos="fade-up" id="lien-he" class="bg-[#05021A] text-white py-12">
+<footer  id="lien-he" class="bg-[#05021A] text-white py-12">
   <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
     <!-- Logo -->
     <div class="flex justify-center md:justify-start">

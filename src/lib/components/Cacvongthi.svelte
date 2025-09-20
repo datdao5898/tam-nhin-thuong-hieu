@@ -3,7 +3,7 @@
     import { fade } from "svelte/transition";
 
     let activeTab = 0; // Index của tab đang hoạt động
-
+    const topPositions = [0, 100, 150, 250, 300];
     let tabs = [
         {
             title: "VÒNG KHỞI ĐỘNG",
@@ -60,32 +60,39 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
     ];
 </script>
 
-<section data-aos="fade-up"
+<section
+    
     class="relative py-10 text-white container mx-auto justify-items-center"
 >
-    <img
+    <img data-aos="fade-up"
         src="/assets/cacvongthi.png"
         alt="Các Vòng Thi"
         class="w-[800px] mb-12"
     />
-    <div class="flex flex-col lg:flex-row p-2 md:p-8 text-white font-san">
-        <div class="w-full flex lg:block lg:w-[45%] pr-0 lg:pr-8 mb-8 lg:mb-0">
+    <div data-aos="fade-up"
+        class="flex flex-col lg:flex-row p-2 md:p-8 text-white font-san w-full"
+    >
+        <div
+            class="w-full flex lg:block lg:w-[45%] pr-0 lg:pr-8 mb-8 lg:mb-0 relative overflow-auto"
+        >
+            <img
+                src="/assets/tab-active.png"
+                alt="icon"
+                class="hidden md:block absolute left-4 h-[20px] lg:h-[100px] transition-transform duration-300 ease-in-out transform"
+                style="top: calc(0% - 20px  + ({activeTab *
+                    80}px)); transition: all .5s;"
+            />
+
             {#each tabs as tab, i}
                 <button
-                    class="flex items-center text-left py-3 lg:px-4 rounded-lg cursor-pointer transition-colors duration-200
-                   w-full mb-2 border border-transparent relative"
+                    class="flex items-center text-left py-3 lg:px-4 rounded-lg cursor-pointer transition-colors duration-700 w-full mb-2 border border-transparent relative"
                     class:border-[#4b4b84]={activeTab === i}
                     on:click={() => (activeTab = i)}
                 >
-                    <img
-                        src={tab.icon}
-                        alt="icon"
-                        class="absolute lg:left-4 top-1/2 transform -translate-y-1/2 h-[20px] lg:h-[100px] transition-opacity duration-300"
-                        class:opacity-100={activeTab === i}
-                        class:opacity-0={activeTab !== i}
-                    />
-
-                    <div class="flex flex-col ml-3 lg:ml-20">
+                    <div
+                        class="flex w-[max-content] px-2 md:px-0 md:w-[auto] flex-col ml-0 lg:ml-20
+"
+                    >
                         <span
                             class:text-yellow-600={activeTab === i}
                             class:text-white={activeTab !== i}
@@ -94,9 +101,9 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
                             {tab.title}
                         </span>
                         {#if tab.subtitle}
-                            <span class="text-xs md:text-sm opacity-70"
-                                >{tab.subtitle}</span
-                            >
+                            <span class="text-xs md:text-sm opacity-70">
+                                {tab.subtitle}
+                            </span>
                         {/if}
                     </div>
                 </button>
@@ -104,12 +111,12 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
         </div>
 
         <div
-            class="tab-content-wrapper p-6 rounded-xl shadow-lg w-full lg:w-[55%] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 md:p-8 md:px-16 rounded-[48px]"
+            class="tab-content-wrapper lg:pt[100px] p-6 rounded-xl shadow-lg w-full lg:w-[55%] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 md:p-8 md:px-16 lg:rounded-[48px] rounded-[15px]"
         >
             {#each tabs as tab, i}
                 {#if activeTab === i}
                     <div
-                        in:fade={{ duration: 300, easing: quintOut }}
+                        in:fade={{ duration: 2000, easing: quintOut }}
                         class="text-base text-gray-200"
                     >
                         <h2

@@ -9,8 +9,8 @@
   onMount(() => {
     AOS.init({
       // Cấu hình
-      offset: 120,
-      duration: 1000,
+      offset: 200,
+      duration: 500,
     });
   });
 </script>
@@ -20,6 +20,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
-<div class="min-h-screen bg-[#05021A] text-white font-sans overflow-hidden">
+<div class="bg-[#05021A] text-white font-sans overflow-hidden">
   <slot />
 </div>

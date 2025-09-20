@@ -40,9 +40,10 @@
 
 </script>
 
-<section data-aos="fade-up"
+<section
   style="background-image:url('/assets/bg-hero.webp');"
-  class="relative flex-col py-20 pt-5 bg-cover bg-center  flex items-center text-white text-center  bg-gradient-to-b from-[#0B022D] to-[#05021A]"
+  class=" flex-col py-20 pt-5 lg:pt-[100px] lg:h-screen 
+ bg-cover bg-center flex items-center text-white text-center bg-gradient-to-b from-[#0B022D] to-[#05021A]"
 >
   <img src="/assets/logos.png" alt="Hero Logo" class="w-60 mb-6"  />
   <div class="flex flex-col md:flex-row container mx-auto">

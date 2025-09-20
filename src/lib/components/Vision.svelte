@@ -12,16 +12,16 @@
   }
 </style>
 
-<section data-aos="fade-up" id="gioi-thieu"
-    class="relative px-5 lg:px-10 py-10  text-white mx-auto justify-items-center
+<section  id="gioi-thieu"
+    class="relative px-5 lg:px-10 py-10 lg:pt-[100px] text-white mx-auto justify-items-center
 "
 >
-    <img
+    <img data-aos="fade-up"
         src="/assets/tnth.png"
         alt="Về Ban Đối Ngoại"
-        class="w-[800px] mb-12"
+        class="w-[1100px] mb-12"
     />
-    <div
+    <div data-aos="fade-up"
         class="container mx-auto lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12"
     >
         <div >
@@ -40,9 +40,9 @@
             />
         </div>
     </div>
-    <div class="container md:px-6">
+    <div data-aos="fade-up" class="container md:px-6">
         <div
-            class="blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-8 md:px-16 rounded-[48px]"
+            class="blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-8 md:px-16 lg:rounded-[48px] rounded-[15px]"
         >
             <p class="text-justify md:text-[20px]">
                 <span class="font-bold text-[#8DFDF1]"

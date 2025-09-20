@@ -1,16 +1,16 @@
-<section data-aos="fade-up"
+<section 
     class="relative pb-5 px-4 pt-20 text-white mx-auto justify-items-center
 "
 >
-    <img
+    <img data-aos="fade-up"
         src="/assets/quyenloi.png"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
     />
-    <div class="container mx-auto flex gap-12 items-center">
+    <div data-aos="fade-up" class="container mx-auto flex gap-12 items-center">
         <!-- Cột trái: nội dung -->
         <div
-            class="lg:w-[60%] items-center text-justify blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 rounded-[48px]"
+            class="lg:w-[60%] items-center text-justify blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 lg:rounded-[48px] rounded-[15px]"
         >
             <h4 class="font-bold text-2xl text-[#8DFDF1] uppercase">
                 Quyền lợi thí sinh
@@ -64,7 +64,7 @@
         </div>
         <!-- Cột trái: nội dung -->
         <div
-            class=" lg:w-[60%] items-center text-justify blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 rounded-[48px]"
+            class=" lg:w-[60%] items-center text-justify blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 lg:rounded-[48px] rounded-[15px]"
         >
             <h4 class="font-bold text-2xl text-[#8DFDF1] uppercase">
                 Quy định chung

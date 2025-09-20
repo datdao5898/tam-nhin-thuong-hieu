@@ -2,12 +2,13 @@
     import { list } from "postcss";
 </script>
 
-<section data-aos="fade-up"
+<section
 id="doi-tac-dong-hanh"
-    class="relative py-20 text-white px-4 mx-auto justify-items-center text-center
+    class="relative py-20 text-white px-4 lg:pt-[100px]  mx-auto justify-items-center text-center
 "
 >
     <img
+     data-aos="fade-up"
         src="/assets/doitac.png"
         alt=""
         class="w-[800px] mb-12 text-center mx-auto"
@@ -22,7 +23,7 @@ id="doi-tac-dong-hanh"
     <div class="py-5 container mx-auto">
         <div class="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12">
             <div
-                class="md:flexitems-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flexitems-center justify-center bg-white p-4 lg:rounded-[48px] rounded-[15px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/neu.png"
@@ -31,7 +32,7 @@ id="doi-tac-dong-hanh"
                 />
             </div>
             <div
-                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 lg:rounded-[48px] rounded-[15px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/doanvb.png"
@@ -40,7 +41,7 @@ id="doi-tac-dong-hanh"
                 />
             </div>
             <div
-                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 lg:rounded-[48px] rounded-[15px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/hoisvvn.png"
@@ -49,7 +50,7 @@ id="doi-tac-dong-hanh"
                 />
             </div>
             <div
-                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 lg:rounded-[48px] rounded-[15px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/bdn.png"
@@ -58,7 +59,7 @@ id="doi-tac-dong-hanh"
                 />
             </div>
             <div
-                class="md:flex items-center justify-center bg-white p-4 rounded-[48px] shadow-[0_9px_11px_-8px_#A5BEFE]"
+                class="md:flex items-center justify-center bg-white p-4 lg:rounded-[48px] rounded-[15px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
                     src="/assets/logotext.webp"
@@ -112,7 +113,7 @@ id="doi-tac-dong-hanh"
     </div>
     <div class="py-5 container mx-auto">
         <div class="mx-auto md:flex place-items-center gap-12 justify-center">
-            <img src="/assets/dhfood.png" alt="Icon 1" class="object-contain min-w-0" />
+            <img src="/assets/dhfood1.png" alt="Icon 1" class="object-contain min-w-0" />
 
             <img
                 src="/assets/tmrmarket.png"
@@ -135,7 +136,7 @@ id="doi-tac-dong-hanh"
         </h4>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto md:flex place-items-center gap-12 justify-center lg:ml-[-40px]">
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center">
             <img src="/assets/dol.png" alt="Icon 1" class="object-contain min-w-0" />
             <img
                 src="/assets/yukazan.png"
@@ -145,8 +146,8 @@ id="doi-tac-dong-hanh"
         </div>
     </div>
     <div class="py-5 container mx-auto">
-        <div class="mx-auto md:flex place-items-center gap-12 justify-center lg:mr-[-40px]">
-            <img src="/assets/izon.png" alt="Icon 1" class="object-contain min-w-0" />
+        <div class="mx-auto md:flex place-items-center gap-12 justify-center ">
+            <img src="/assets/izone.png" alt="Icon 1" class="object-contain min-w-0" />
             <img src="/assets/zim.png" alt="Icon 1" class="object-contain min-w-0" />
         </div>
     </div>
@@ -227,7 +228,7 @@ id="doi-tac-dong-hanh"
             <img src="/assets/topcv.png" alt="Icon 1" class="object-contain min-w-0 min-w-0" />
         </div>
     </div>
-    <div class="mx-auto mt-20 container flex gap-12 justify-center pb-20">
+    <div data-aos="fade-down" class="mx-auto mt-20 container flex gap-12 justify-center">
         <img src="/assets/brand.webp" alt="Icon 1" class="object-contain min-w-0" />
     </div>
 </section>

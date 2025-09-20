@@ -1,7 +1,4 @@
 <script>
-
-
-
     import { onMount } from "svelte";
 
     // Danh sách hình ảnh
@@ -33,20 +30,18 @@
     }
 </script>
 
-<section data-aos="fade-up"
+<section 
     id="ve-chung-toi"
-    class="relative py-10 text-white mx-auto justify-items-center
-"
-   
->
-    <img src="/assets/hsv.png" alt="Về Ban Đối Ngoại" class="w-[800px] mb-12" />
+    class="relative py-10 text-white mx-auto justify-items-center lg:pt-[100px] 
+">
+    <img data-aos="fade-up" src="/assets/hsv.png" alt="Về Ban Đối Ngoại" class="w-[1100px] mb-12" />
 
-    <div
+    <div data-aos="fade-up"
         class="container px-5 lg:px-0 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
     >
         <!-- Cột trái: nội dung -->
         <div
-            class="text-justify blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-8 rounded-[48px]"
+            class="text-justify blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-8 lg:rounded-[48px] rounded-[15px]"
         >
             <p class=" text-[15px]">
                 <span class="font-bold text-[#8DFDF1]">Ban Đối Ngoại</span> là
@@ -109,6 +104,7 @@
         </div>
     </div>
     <div class="mt-10">
+        <a href="https://www.facebook.com/bandoingoai.neu" target="_blank" rel="noopener noreferrer" class="flex justify-center">
         <button
             class="text-[#6C66C0] uppercase lg:text-2xl font-bold bg-gradient-to-b from-[#6C66C0] via-[#B5B2E0] via-[#FFFFFF] via-[#918CD0] to-[#C4C2E6] drop-shadow-[0_4px_6px_#A5BEFE] p-4 rounded-full transition-all duration-300 hover:animate-pulse_bounce"
         >
