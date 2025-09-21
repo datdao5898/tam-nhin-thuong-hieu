@@ -76,8 +76,8 @@
         />
     </div>
     <div
-        class="relative  mb-[50px] w-full mx-auto overflow-hidden custom-path"
-        style="" 
+        class="relative mb-[50px] w-full mx-auto overflow-hidden custom-path"
+        style=""
     >
         <div
             class="flex {isTransitioning
@@ -104,16 +104,19 @@
 </section>
 
 <style>
-    .slide {
-        transform: scale(.9); 
-        transition: all 0.5s ease-in-out;
-        opacity: 0.5;
+    @media (min-width: 1024px) {
+        .slide {
+            transform: scale(0.9);
+            transition: all 0.5s ease-in-out;
+            opacity: 0.5;
+        }
+        .active-slide {
+            transform: scale(1);
+            z-index: 10;
+            opacity: 1;
+        }
     }
-    .active-slide {
-        transform: scale(1); 
-        z-index: 10;
-        opacity: 1;
-    }
+
     @media (max-width: 768px) {
         .active-slide {
             transform: scale(1); /* Phóng to slide chính */
@@ -121,9 +124,8 @@
             opacity: 1;
         }
         .slide {
-        transition: all 0.5s ease-in-out;
-        opacity: 1;
-    }
-       
+            transition: all 0.5s ease-in-out;
+            opacity: 1;
+        }
     }
 </style>

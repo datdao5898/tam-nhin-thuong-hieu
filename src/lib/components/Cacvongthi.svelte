@@ -111,7 +111,7 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
         </div>
 
         <div
-            class="tab-content-wrapper lg:pt[100px] p-6 rounded-xl shadow-lg w-full lg:w-[55%] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 md:p-8 md:px-16 lg:rounded-[48px] rounded-[15px]"
+            class="tab-content-wrapper lg:pt[100px] p-4 lg:p-6 rounded-xl shadow-lg w-full lg:w-[55%] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 md:p-8 md:px-16 lg:rounded-[48px] rounded-[15px]"
         >
             {#each tabs as tab, i}
                 {#if activeTab === i}
@@ -129,7 +129,7 @@ TOP 2 đội thi xuất sắc nhất phần thi 1 tiếp tục tham gia giải m
                         >
                             {tab.date}
                         </h2>
-                        <p class="leading text-[20px] whitespace-pre-line">
+                        <p class="leading lg:text-[20px] whitespace-pre-line">
                             {tab.content}
                         </p>
                     </div>

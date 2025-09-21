@@ -117,7 +117,7 @@ id="giai-thuong"
             <div
                 class="text-justify place-self-center lg:w-[1000px] blur-xs bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 lg:rounded-[48px] rounded-[15px]"
             >
-                <ul class="text-[20px]">
+                <ul class="lg:text-[20px]">
                     {#each prize.items as item}
                         <li class="list-disc ml-6">{item}</li>
                     {/each}

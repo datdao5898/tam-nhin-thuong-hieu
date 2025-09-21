@@ -15,7 +15,7 @@
             <h4 class="font-bold text-2xl text-[#8DFDF1] uppercase">
                 Quyền lợi thí sinh
             </h4>
-            <ul class="text-[20px]">
+            <ul class="lg:text-[20px]">
                 <li class="list-disc ml-6">
                     Có cơ hội vận dụng kiến thức chuyên môn để giải quyết các
                     bài toán thực tế từ thương hiệu.
@@ -70,7 +70,7 @@
             <h4 class="font-bold text-2xl text-[#8DFDF1] uppercase">
                 Quy định chung
             </h4>
-            <ul class="text-[20px]">
+            <ul class="lg:text-[20px]">
                 <li class="list-disc ml-6">
                     Ban Tổ chức có quyền điều chỉnh thể lệ, thời gian và nội
                     dung các vòng thi, với điều kiện phải thông báo đến thí sinh
