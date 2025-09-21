@@ -60,7 +60,7 @@
     <div data-aos="fade-up" class="grid w-full grid-cols-2 md:grid-cols-3 gap-y-20 text-center">
       {#each stats as item, i}
         <div class="text-center flex flex-col items-center">
-          <img src="/assets/mark.png" alt="" class="w-[70px] lg:w-[130px] mb-3 text-center" />
+          <img src="/assets/mark.png" alt="" class="w-[70px] lg:w-[130px] mb-3 float-animation text-center" />
           <h3 class="text-2xl lg:text-7xl font-extrabold text-[#8DFDF1]">
             {formatNumber(counters[i])}{item.suffix}
           </h3>
