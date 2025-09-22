@@ -17,7 +17,7 @@
         class="container mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             ĐƠN VỊ TỔ CHỨC
         </h4>
@@ -83,7 +83,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ HOÀNG KIM
         </h4>
@@ -102,7 +102,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             ĐỐI TÁC CHIẾN LƯỢC
         </h4>
@@ -121,7 +121,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ BẠC
         </h4>
@@ -151,7 +151,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ ĐỒNG
         </h4>
@@ -189,7 +189,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             BẢO TRỢ CHUYÊN MÔN
         </h4>
@@ -242,7 +242,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             BẢO TRỢ TRUYỀN THÔNG
         </h4>
@@ -320,7 +320,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             BẢO TRỢ CÔNG NGHỆ
         </h4>
@@ -338,7 +338,7 @@
         class="container mt-20 mx-auto md:flex place-items-center gap-12 justify-center"
     >
         <h4
-            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] md:leading-[60px] leading-[55px] bg-clip-text text-transparent"
+            class="text-2xl lg:text-4xl font-bold bg-gradient-to-b from-[#FFFFFF] to-[#73B1E1] lg:leading-[60px] leading-[55px] bg-clip-text text-transparent"
         >
             NHÀ TÀI TRỢ ĐỒNG HÀNH
         </h4>

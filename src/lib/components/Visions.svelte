@@ -1,7 +1,6 @@
 <script>
     import { onMount } from "svelte";
 
-    // Mảng chứa các đường dẫn ảnh
     let images = [
         "/assets/slide/1.png",
         "/assets/slide/2.png",
@@ -24,49 +23,48 @@
         "/assets/slide/19.png",
     ];
 
-    // Nhân đôi mảng để tạo hiệu ứng vòng lặp liền mạch
     let slides = [...images, ...images];
     let current = 0;
     let slideWidth = 100;
-
-    // Biến để kiểm soát việc bật/tắt transition
     let isTransitioning = true;
+    let interval;
 
-    // Logic tự động trượt
+    function nextSlide() {
+        current += 1;
+        if (current >= images.length) {
+            isTransitioning = false;
+            requestAnimationFrame(() => {
+                current = 0;
+                isTransitioning = true;
+            });
+        }
+    }
+
+    function prevSlide() {
+        if (current <= 0) {
+            isTransitioning = false;
+            requestAnimationFrame(() => {
+                current = images.length - 1;
+                isTransitioning = true;
+            });
+        } else {
+            current -= 1;
+        }
+    }
+
     onMount(() => {
         if (window.innerWidth < 768) {
-            slideWidth = 50;
+            slideWidth = 100;
         } else {
             slideWidth = 33.333; // desktop: 3 ảnh
         }
-        const interval = setInterval(() => {
-            current += 1;
-            // Kiểm tra xem đã cuộn qua toàn bộ mảng ảnh gốc chưa
-            // Nếu đã cuộn đến ảnh đầu tiên của phần lặp lại
-            if (current >= images.length) {
-                // Tắt transition
-                isTransitioning = false;
 
-                // Reset về vị trí 0 ngay lập tức
-                // Sử dụng requestAnimationFrame để đảm bảo Svelte đã cập nhật DOM
-                // trước khi bật lại transition
-                requestAnimationFrame(() => {
-                    current = 0;
-                    isTransitioning = true;
-                });
-            }
-        }, 2500);
+        interval = setInterval(nextSlide, 2500);
+
         return () => clearInterval(interval);
     });
 </script>
 
-<svg width="0" height="0" style="position: absolute; overflow: hidden;">
-    <defs>
-        <clipPath id="curved-sides-rectangle" clipPathUnits="objectBoundingBox">
-            <path d="M0,0 Q0.5,0.2 1,0 L1,1 Q0.5,0.8 0,1 Z" />
-        </clipPath>
-    </defs>
-</svg>
 <section data-aos="fade-up" class="py-10 px-4 md:px-0">
     <div class="container justify-self-center">
         <img
@@ -76,18 +74,17 @@
         />
     </div>
     <div
-        class="relative mb-[50px] w-full mx-auto overflow-hidden custom-path"
-        style=""
+        class="relative mb-[50px] w-full mx-auto overflow-hidden custom-path px-10 lg:px-0"
     >
+        <!-- Slides -->
         <div
-            class="flex {isTransitioning
-                ? 'transition-transform duration-700 ease-in-out'
-                : ''}"
+            class="flex transition-transform duration-700 ease-in-out"
+            class:!transition-none={!isTransitioning}
             style="transform: translateX(-{current * slideWidth}%);"
         >
             {#each slides as img, i}
                 <div
-                    class="flex-shrink-0 slide w-1/2 md:w-1/3 px-2 md:px-4 {i ===
+                    class="flex-shrink-0 slide w-full  md:w-1/3 px-2 md:px-4 {i ===
                     current + 1
                         ? 'active-slide'
                         : ''}"
@@ -100,6 +97,20 @@
                 </div>
             {/each}
         </div>
+
+        <!-- Nút điều khiển -->
+        <button
+            on:click={prevSlide}
+            class="absolute blur-xs bg-gradient-to-b rounded-xl from-[#D3EAFF]/30 via-[#17B7D0] via-[#0C0B80] to-[#1F1C1C] top-1/2 text-[50px] left-0 lg:left-4 -translate-y-1/2 bg-black/50 text-white p-2  hover:bg-black/70 transition"
+        >
+            ‹
+        </button>
+        <button
+            on:click={nextSlide}
+            class="absolute blur-xs bg-gradient-to-b rounded-xl from-[#D3EAFF]/30 via-[#17B7D0] via-[#0C0B80] to-[#1F1C1C] top-1/2 text-[50px] right-0 lg:right-4 -translate-y-1/2 bg-black/50 text-white p-2  hover:bg-black/70 transition"
+        >
+            ›
+        </button>
     </div>
 </section>
 
@@ -119,7 +130,7 @@
 
     @media (max-width: 768px) {
         .active-slide {
-            transform: scale(1); /* Phóng to slide chính */
+            transform: scale(1);
             z-index: 10;
             opacity: 1;
         }

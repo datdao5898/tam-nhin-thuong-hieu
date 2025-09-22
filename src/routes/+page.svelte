@@ -18,7 +18,7 @@
 
 <Navbar />
 <Hero />
-<div style="background-image: url('/assets/bg-about.png'); background-attachment:fixed;background-size:cover;" class="fixed-bg-wrapper">
+<div style="background-image: url('/assets/bg-about.png'); background-attachment:fixed;background-size:cover;" class="fixed-bg-wrapper text-justify">
 
 <About />
 <Vision />
