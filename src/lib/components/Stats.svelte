@@ -53,7 +53,7 @@
 </script>
 
 <section bind:this={sectionEl}  class="relative py-10 text-white mx-auto">
-  <div data-aos="fade-up" class="container mx-auto px-6 justify-items-center">
+  <div data-aos="fade-up" class="container mx-auto lg:px-6 justify-items-center">
     <!-- Tiêu đề -->
     <img data-aos="fade-up" src="/assets/dauan.png" alt="" class="lg:w-[1000px] mb-12 text-center" />
 

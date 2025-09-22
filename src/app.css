@@ -28,3 +28,8 @@ body {
 .float-animation {
   animation: float 3s ease-in-out infinite;
 }
+@media(max-width:768px){
+  .fixed-bg-wrapper{
+    background-image:url('/assets/bgmb.png') !important;
+  }
+}
