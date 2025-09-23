@@ -33,7 +33,7 @@
                 <img
                     src="/assets/neu.png"
                     alt="Icon 1"
-                    class="w-32 h-32 object-contain min-w-0"
+                    class="w-32 h-32 object-contain justify-self-center min-w-0"
                 />
             </div>
             <div
@@ -43,7 +43,7 @@
                 <img
                     src="/assets/doanvb.png"
                     alt="Icon 2"
-                    class="w-32 h-32 object-contain min-w-0"
+                    class="w-32 h-32 object-contain justify-self-center min-w-0"
                 />
             </div>
             <div
@@ -53,7 +53,7 @@
                 <img
                     src="/assets/hoisvvn.png"
                     alt="Icon 3"
-                    class="w-32 h-32 object-contain min-w-0"
+                    class="w-32 h-32 object-contain justify-self-center min-w-0"
                 />
             </div>
             <div
@@ -63,7 +63,7 @@
                 <img
                     src="/assets/bdn.png"
                     alt="Icon 4"
-                    class="w-32 h-32 object-contain min-w-0"
+                    class="w-32 h-32 object-contain justify-self-center min-w-0"
                 />
             </div>
             <div
@@ -73,7 +73,7 @@
                 <img
                     src="/assets/logotext.webp"
                     alt="Icon 5"
-                    class="w-32 h-32 object-contain min-w-0"
+                    class="w-32 h-32 object-contain justify-self-center min-w-0"
                 />
             </div>
         </div>
@@ -93,7 +93,7 @@
             <img
                 src="/assets/xanh.png"
                 alt="Icon 1"
-                class="object-contain min-w-0 "
+                class="object-contain min-w-0"
             />
         </div>
     </div>
@@ -296,9 +296,7 @@
                 class="object-contain min-w-0"
             />
         </div>
-        <div
-            class="mx-auto  md:flex gap-12 justify-center place-items-center"
-        >
+        <div class="mx-auto md:flex gap-12 justify-center place-items-center">
             <img
                 src="/assets/bttt10.png"
                 alt="Icon 1"
@@ -380,11 +378,11 @@
         />
     </div>
 </section>
+
 <style>
     @media (min-width: 1024px) {
         .doitac img {
             width: 250px;
         }
     }
-     
 </style>
