@@ -27,7 +27,7 @@
             class="mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-12"
         >
             <div
-                class="md:flexitems-center justify-items-center
+                class="md:flex items-center justify-items-center
  justify-center bg-white p-4 lg:rounded-[48px] rounded-[15px] shadow-[0_9px_11px_-8px_#A5BEFE]"
             >
                 <img
