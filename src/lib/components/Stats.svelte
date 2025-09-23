@@ -64,7 +64,7 @@
           <h3 class="text-2xl lg:text-7xl font-extrabold text-[#8DFDF1]">
             {formatNumber(counters[i])}{item.suffix}
           </h3>
-          <p class="text-base mt-2 lg:w-[250px] lg:text-2xl font-bold">{item.label}</p>
+          <p class="text-base mt-2 px-4 lg:w-[250px] lg:text-2xl font-bold">{item.label}</p>
         </div>
       {/each}
     </div>

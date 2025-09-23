@@ -33,7 +33,7 @@
                 <img
                     src="/assets/neu.png"
                     alt="Icon 1"
-                    class="w-32 h-32 object-contain justify-self-center min-w-0"
+                    class="w-32 h-32 object-contain m-auto min-w-0"
                 />
             </div>
             <div
@@ -43,7 +43,7 @@
                 <img
                     src="/assets/doanvb.png"
                     alt="Icon 2"
-                    class="w-32 h-32 object-contain justify-self-center min-w-0"
+                    class="w-32 h-32 object-contain m-auto min-w-0"
                 />
             </div>
             <div
@@ -53,7 +53,7 @@
                 <img
                     src="/assets/hoisvvn.png"
                     alt="Icon 3"
-                    class="w-32 h-32 object-contain justify-self-center min-w-0"
+                    class="w-32 h-32 object-contain m-auto min-w-0"
                 />
             </div>
             <div
@@ -63,7 +63,7 @@
                 <img
                     src="/assets/bdn.png"
                     alt="Icon 4"
-                    class="w-32 h-32 object-contain justify-self-center min-w-0"
+                    class="w-32 h-32 object-contain m-auto min-w-0"
                 />
             </div>
             <div
@@ -73,7 +73,7 @@
                 <img
                     src="/assets/logotext.webp"
                     alt="Icon 5"
-                    class="w-32 h-32 object-contain justify-self-center min-w-0"
+                    class="w-32 h-32 object-contain m-auto min-w-0"
                 />
             </div>
         </div>

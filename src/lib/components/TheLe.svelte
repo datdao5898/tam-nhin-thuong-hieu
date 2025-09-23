@@ -14,7 +14,7 @@ id="the-le"
     />
     <div data-aos="fade-up" class="container mx-auto flex gap-12 md:text-[20px] justify-center">
         <div
-           class="blur-xs md:w-[1000px] leading-[32px] bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 md:px-16 lg:rounded-[48px] rounded-[15px]">
+           class="blur-xs md:w-[1000px] lg:leading-[32px] bg-gradient-to-b from-[#D3EAFF]/30 via-[#17B7D0]/30 via-[#0C0B80]/30 to-[#1F1C1C]/30 p-4 md:p-8 md:px-16 lg:rounded-[48px] rounded-[15px]">
             <h4 class="font-bold text-[#8DFCF0]">ĐỐI TƯỢNG THAM GIA</h4>
             <ul>
                 <li style=" list-style-type: disc; margin-left: 1.5rem;">
