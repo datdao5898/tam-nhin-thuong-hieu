@@ -1,8 +1,9 @@
-<section 
+<section
     class="relative pb-5 px-4 pt-20 text-white mx-auto justify-items-center
 "
 >
-    <img data-aos="fade-up"
+    <img
+        data-aos="fade-up"
         src="/assets/quyenloi.png"
         alt="Về Ban Đối Ngoại"
         class="w-[800px] mb-12"
@@ -29,9 +30,9 @@
                     Training Day dành riêng cho các thí sinh.
                 </li>
                 <li class="list-disc ml-6">
-                    Nhận được đánh giá từ đội ngũ ban giám khảo – những chuyên
-                    gia đầu ngành Truyền thông thương hiệu – cho từng bài thi
-                    ngay từ vòng khởi động.
+                    Top 25 đội thi tham gia Vòng 3: IMC Plan sẽ nhận được đánh
+                    giá chi tiết từ đội ngũ ban giám khảo – những chuyên gia đầu
+                    ngành Truyền thông thương hiệu.
                 </li>
                 <li class="list-disc ml-6">
                     Có cơ hội nhận lời mời tuyển dụng độc quyền từ các Doanh
@@ -51,17 +52,22 @@
         <!-- Cột phải: hình ảnh -->
         <div class="hidden lg:block w-[40%] justify-center">
             <img
-            data-aos="fade-left"
+                data-aos="fade-left"
                 src="/assets/pinklogo.png"
                 alt="Ban Đối Ngoại"
                 class="rounded-xl"
             />
         </div>
     </div>
-    <div class="container mx-auto mt-20 flex gap-12 ">
+    <div class="container mx-auto mt-20 flex gap-12">
         <!-- Cột phải: hình ảnh -->
-        <div  class="hidden lg:block w-[40%] justify-center">
-            <img  data-aos="fade-right" src="/assets/benefitimg.png" alt="" class="rounded-xl absolute left-0 w-[45%]" />
+        <div class="hidden lg:block w-[40%] justify-center">
+            <img
+                data-aos="fade-right"
+                src="/assets/benefitimg.png"
+                alt=""
+                class="rounded-xl absolute left-0 w-[45%]"
+            />
         </div>
         <!-- Cột trái: nội dung -->
         <div
