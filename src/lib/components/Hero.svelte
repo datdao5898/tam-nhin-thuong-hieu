@@ -25,6 +25,14 @@
     const now = new Date().getTime();
     const diff = target - now;
 
+if (diff <= 0) {
+        countdown.days = 0;
+        countdown.hours = 0;
+        countdown.minutes = 0;
+        countdown.seconds = 0;
+        return; // Dừng hàm, không cần tính toán thêm
+    }
+
     countdown.days = Math.floor(diff / (1000 * 60 * 60 * 24));
     countdown.hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
     countdown.minutes = Math.floor((diff / (1000 * 60)) % 60);
